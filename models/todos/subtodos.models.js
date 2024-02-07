@@ -4,7 +4,7 @@ const subTodo = mongoose.model(
     {
         content:{
             type:String,
-            require:true
+            required:true
         },
         complete:{
             type:Boolean,
